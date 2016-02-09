@@ -1,0 +1,7 @@
+
+
+library(ggplot)
+library(dplyr)
+library(readr)
+
+read_csv("/tmp/foo.csv")
