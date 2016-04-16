@@ -14,10 +14,8 @@ pip install pandas matplotlib seaborn
 ##How to run jupyter
 
 ```bash
-ifconfig
-# get IP address and use it as --ip argument
-jupyter notebook --no-browser --ip=10.1.220.81
+jupyter notebook --no-browser --ip=0.0.0.0
 ```
 
-Now open a browser and point to `http://10.1.220.81:8888`.
+Now open a browser and point to `http://<that-host>:8888`.
 
